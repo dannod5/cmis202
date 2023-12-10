@@ -44,6 +44,7 @@ class BinarySearchTree {
     }
 
     public TreeNode getRoot() {
+        return null;
     }
 }
 
@@ -52,6 +53,7 @@ public class PokemonSelector {
         BinarySearchTree bst = new BinarySearchTree();
 
         // Insert Pokemon into BST
+        Pokemon[] pokemonList = new Pokemon[0];
         for (Pokemon pokemon : pokemonList) {
             bst.insert(pokemon);
         }
